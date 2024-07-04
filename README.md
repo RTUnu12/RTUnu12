@@ -8,6 +8,7 @@
 [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=RTUnu12)](https://velog.io/@RTUnu12)
 
 # Tech Stack
+<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RTUnu12&layout=compact) -->
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RTUnu12&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=RTUnu12)](https://solved.ac/RTUnu12/)
 
