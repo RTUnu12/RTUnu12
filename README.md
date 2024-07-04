@@ -19,6 +19,7 @@
 </div>
 
 ## Back-End
+<div align=center>
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
 <br/>
@@ -29,29 +30,38 @@
 <img src="https://img.shields.io/badge/maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white">
 <br/>
 <img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=Node.js&logoColor=white">
-
+</div>
 
 ## Front-End
+<div align=center>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
 <img src="https://img.shields.io/badge/Recoil-3578E5?style=for-the-badge&logo=Recoil&logoColor=white">
+</div>
 
 ## DB
+<div align=center>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+</div>
 
 ## Tools
+<div align=center>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">
 <br/>
 <img src="https://img.shields.io/badge/intelliJ%20IDEA-000000?style=for-the-badge&logo=intelliJ%20IDEA&logoColor=white">
 <img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=for-the-badge&logo=Eclipse%20IDE&logoColor=white">
 <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0378A6?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white">
+</div>
 
 ## ETC
+<div align=center>
 <img src="https://img.shields.io/badge/arduino-2C2255?style=for-the-badge&logo=arduino&logoColor=white">
+</div>
 
 ## Commig soon....
+<div align=center>
 <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=Rust&logoColor=white">
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white">
 <br>
@@ -60,7 +70,7 @@
 <img src="https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white">
 <br>
 <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=.NET&logoColor=white">
-
+</div>
 
 
 # Organization
