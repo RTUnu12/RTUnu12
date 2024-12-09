@@ -8,6 +8,7 @@
 [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=RTUnu12)](https://velog.io/@RTUnu12)
 
 # Portfolio
+[Portfolio](https://www.canva.com/design/DAGURDJdgGw/87tM5Rk4WjjzNMxXrM7guQ/edit?utm_content=DAGURDJdgGw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 # Tech Stack
 <!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RTUnu12&layout=compact) -->
