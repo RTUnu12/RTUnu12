@@ -22,6 +22,7 @@
 </div>
 
 ## Infra
+<div align=left>
 <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white">
 <img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white">
 <img src="https://img.shields.io/badge/Amazon%20RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white">
@@ -36,6 +37,7 @@
 <img src="https://img.shields.io/badge/Amazon%20CodeDeploy-527FFF?style=for-the-badge&logo=amazonwebservices&logoColor=white">
 <img src="https://img.shields.io/badge/Amazon%20MediaConvert-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white">
 <img src="https://img.shields.io/badge/Amazon%20CloudFront-8C4FFF?style=for-the-badge&logo=amazonwebservices&logoColor=white">
+</div>
 
 ## DevOps
 <div align=left>
