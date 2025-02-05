@@ -22,6 +22,7 @@
 </div>
 
 ## Infra
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8fb826c2-a923-4c65-b12d-a704e1eec286" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div align=left>
 <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white">
 <img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white">
