@@ -86,4 +86,5 @@
 
 # Organization
 * DND - Developer & Designer 11기 (2024.06.28 ~ 2024.08.31)
+* DND - Developer & Designer 12기 (2024.12.26 ~ 2025.02.21)
 
