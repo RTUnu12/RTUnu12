@@ -5,7 +5,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRTUnu12&count_bg=%2326E5D8&title_bg=%234B7EEF&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 # Blog
-[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=rtunu12)](https://velog.io/@RTUnu12)
+[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=rtunu12)](https://velog.io/@rtunu12)
 
 # Portfolio
 [Portfolio](https://www.canva.com/design/DAGURDJdgGw/87tM5Rk4WjjzNMxXrM7guQ/edit?utm_content=DAGURDJdgGw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
