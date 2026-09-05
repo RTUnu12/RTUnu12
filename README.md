@@ -1,29 +1,37 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=260&section=header&text=RTUnu12&fontSize=80&animation=fadeIn)
 
-## 한계를 넘어 성장하는 개발자, 류태웅입니다.
+## 한계를 넘어 성장하는 백엔드 개발자, 류태웅
 
-운영과 확장성을 함께 고민하는 **백엔드/인프라 지향 개발자**입니다.
+Spring Boot 기반 웹 서비스 개발 경험을 바탕으로, 실무에서 FastAPI 기반 API 개발, AWS CDK 인프라 운영, Kubeflow 파이프라인 개발까지 업무 영역을 확장
 
-Spring Boot 중심의 개발 경험을 바탕으로 실무에서 Python, FastAPI, Kubeflow를 익혀 금융 예측 서비스의 백엔드 API, 데이터 파이프라인, AWS·Kubernetes 인프라를 개발하고 운영했습니다.
+- 서비스 요구사항을 API와 데이터 구조로 구체화하고, 프론트엔드·ML 개발자와 협업해 실제 사용자 기능으로 연결
+- GPU 실행 환경 분리, 데이터 수집 리소스 과다 사용, 수동 배포 반복 등 운영 과정에서 드러난 문제를 구조적으로 개선
+- 백엔드 코드에 머무르지 않고 인프라, CI/CD, 파이프라인까지 필요한 영역을 직접 파악하고 해결 범위를 확장
 
-기능 구현에 그치지 않고 데이터 수집, 배포, 인프라에서 발생하는 문제의 원인을 추적하고 반복 작업을 자동화하는 데 관심이 있습니다.
+`#FastAPI` `#SpringBoot` `#Kubeflow` `#Kubernetes` `#AWS_CDK` `#CI_CD` `#DataPipeline`
 
 ## Experience Highlights
 
-- **Kubeflow 기반 온프레미스 GPU 실행 구조 구축**<br>
-  EKS의 GPU 할당 제약에 대응해 온프레미스 GPU 작업을 Kubeflow 파이프라인에 연계하고, 기존 DAG의 실행 순서와 상태 관리 구조를 유지했습니다.
+- **프론트엔드·ML 요구사항을 API 계약으로 구체화한 MVP 개발**<br>
+  FastAPI와 PostgreSQL 기반으로 구독 상태 확인, 예측 결과 조회, 관리자 구독 할당/회수 등 핵심 API 구현
 
-- **브라우저 기반 데이터 수집 구조 개선**<br>
-  Playwright 기반 수집을 HTTP/API 기반으로 전환하여 주요 컴포넌트의 Kubernetes 요청 자원을 CPU **84.3%**, 메모리 **87.5%** 절감했습니다.
+- **Kubeflow DAG 외부 온프레미스 GPU 작업 실행 순서 보장**<br>
+  온프레미스 GPU 작업을 Kubeflow Component로 추상화하고, DB를 중개 계층으로 활용해 작업 요청·상태·결과·로그를 교환하는 구조 구축
 
-- **Kubeflow 컴포넌트 배포 자동화**<br>
-  GitLab CI/CD로 정적 검사, 테스트, 이미지 빌드, Registry 업로드, Component Spec 반영 및 파이프라인 업로드 과정을 자동화했습니다.
+- **외부 데이터 수집 구조 최적화**<br>
+  Playwright 기반 수집을 HTTP/API 기반 구조로 전환해 주요 컴포넌트의 Kubernetes 요청 자원 CPU **84.3%**, 메모리 **87.5%** 절감
 
-- **AWS CDK 기반 인프라 운영 및 변경 관리**<br>
-  EKS, IAM, RDS, ECR, S3 등의 리소스와 Stack 간 의존관계를 관리하고, `cdk diff`와 `cdk import`를 활용해 변경 범위와 코드 관리 범위를 점검했습니다.
+- **AWS CDK 기반 클라우드 인프라 운영 및 변경 관리**<br>
+  기존 CDK 기반 AWS 인프라를 인수인계받아 Stack 의존관계와 실제 리소스 상태를 확인하고, CDK 코드 수정·`cdk import`·`cdk diff` 기반으로 변경 관리
 
-- **데이터베이스·인프라 변경 추적 체계 구성**<br>
-  Alembic 실행 기록과 PostgreSQL 로그를 남기고, CloudTrail·S3·Athena를 연계하여 장애 발생 시 변경 이력과 원인 후보를 추적할 수 있도록 구성했습니다.
+- **Kubeflow 컴포넌트/파이프라인 CI/CD 구축**<br>
+  GitLab CI/CD에서 배포 대상 이미지를 선택하면 이미지 빌드, Registry 업로드, 컴포넌트 정의 갱신, 파이프라인 컴파일·업로드까지 이어지는 배포 흐름 자동화
+
+- **DB·인프라 변경 이력 추적 체계 구성**<br>
+  Alembic revision 변경 이력과 CloudTrail 관리 이벤트를 추적해 장애 발생 시 DB/인프라 변경 여부를 원인 분석 근거로 활용 가능한 구조 구성
+
+- **AI 입력 데이터 이상 감지·알림 및 임시 보정 체계 구축**<br>
+  외부 기준값 이상 수신 시 임시 보정 후 Slack 알림을 전송하는 별도 Python 스크립트로 운영 대응 흐름 구성
 
 ## Tech Stack
 
@@ -36,7 +44,7 @@ Spring Boot 중심의 개발 경험을 바탕으로 실무에서 Python, FastAPI
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot">
 </p>
 
-### Data
+### Database / Cache
 
 <p>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
@@ -44,10 +52,11 @@ Spring Boot 중심의 개발 경험을 바탕으로 실무에서 Python, FastAPI
   <img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
 </p>
 
-### Infra & DevOps
+### Pipeline / Infra / DevOps
 
 <p>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS">
+  <img src="https://img.shields.io/badge/AWS%20CDK-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS CDK">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes">
   <img src="https://img.shields.io/badge/Kubeflow-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubeflow">
@@ -62,10 +71,10 @@ Spring Boot 중심의 개발 경험을 바탕으로 실무에서 Python, FastAPI
 
 `2025.09 - 2026.08`
 
-- 금융 예측 서비스의 FastAPI 기반 백엔드 API와 PostgreSQL 데이터베이스 개발·유지보수
-- Kubeflow 기반 데이터 수집·예측 파이프라인 개발·운영
-- AWS CDK 기반 클라우드 인프라와 EKS·RDS 등 주요 리소스 운영
-- GitLab CI/CD 기반 컴포넌트 빌드·배포 자동화 및 변경 추적 체계 구성
+- AI 기반 예측/최적화 서비스의 백엔드 API, Kubeflow 파이프라인, AWS CDK 인프라 개발·유지보수
+- 프론트엔드·ML 개발자와 API 계약, 응답 구조, 모델 Input/Output 연동 방식 조율
+- 온프레미스 GPU 작업 실행 순서 보장, 외부 데이터 수집 구조 최적화, Kubeflow CI/CD 자동화
+- CDK 기반 인프라 변경 관리, CloudTrail/Alembic 변경 이력 추적, 운영 리스크 대응
 
 ### DND — Developer & Designer
 
